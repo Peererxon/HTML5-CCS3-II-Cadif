@@ -1,0 +1,13 @@
+Según la imagen adjuntada, realizar las siguientes actividades:
+
+
+1.- Crear los archivos: html y css. Enlazar la hoja de estilos con el html.
+
+2.- Maquetar idénticamente la página web mostrada en la imagen.
+
+3.- Hacer uso de: márgenes, paddings, alineaciones, display, flotaciones y posiciones relativas en la maqueta.
+
+4.- Buscar sobre las propiedades border-radius y z-index, y aplicarlas en la navegación principal.
+
+5.- Usar la etiqueta "" dentro del listado del nav con enlaces de prueba. 
+Nota: en la maquetación deben combinar las etiquetas semánticas con los div's, cerrar todas las etiquetas e indentar el código.

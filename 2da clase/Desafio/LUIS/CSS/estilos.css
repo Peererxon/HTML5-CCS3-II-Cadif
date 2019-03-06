@@ -1,0 +1,59 @@
+*{
+ margin:0;
+ padding:0;
+ border:0;
+}
+
+.menu{
+	background:#F5769F;
+	position:relative;
+	top:30px;
+	left:140px;
+	width:960px; 
+	padding:0px;
+	border-radius:10px;
+}
+
+nav li{
+	padding:17px;
+}
+
+nav ul li{
+	display:inline-block; /*Botones principales en linea*/
+}
+
+nav li ul{
+	position:absolute; /*Cuando posemos el mouse sobre el boton se despliegue el submenu con normalidad*/
+	display:none; /*Oculta los submenú*/
+	margin-top: 15px;
+	margin-left:-10px;
+}
+
+nav li ul li{
+	display:block;/*Para que la lista(submenu) se despliegue en columna*/
+}
+
+nav li:hover ul{
+	display:block;/*Para que la lista(submenu) se despliegue en columna*/
+	border-radius:-0;
+}
+
+
+a{
+	text-decoration:none;
+	color:white;	
+}
+
+
+.Inicio{
+	margin:15px;
+	position: relative;
+	right:15px;
+}
+
+.sabores{
+	background:#F5769F;
+	border-radius:5px;
+	position:relative;
+	right:7px;
+}

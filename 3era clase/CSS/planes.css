@@ -1,0 +1,55 @@
+*{
+	padding: 0;
+	margin: 0;
+	border:0;
+}
+
+.planes_contenedor{
+	width: 30%;
+	height: 500px;
+	border: 1px solid gray;
+	margin: auto;
+}
+
+.planes_cabecera{
+	height: 100px;
+	text-align: center;
+}
+
+.planes_cabecera h3 + p{
+	font-size: 30px;
+	margin: 10px 0;
+}
+/*osea que sub es hijo directo de p*/
+.planes_cabecera p > sub{
+	font-size: 20px;
+}
+
+.planes_cuerpo_listado > li{
+	list-style: none;
+	border-bottom: 1px solid gray;
+}
+
+.planes_cuerpo_listado > li:last-child{
+	border-bottom: none;
+}
+
+.planes_cuerpo_listado > li:nth-child(2n){
+	background: rgba(100,100,100,.4);
+}
+
+.planes_cuerpo_enlace{
+	width: 100%;
+	height: 40px;
+	background: purple;
+	text-align: center;
+}
+
+a[class="boton_compra"]{
+	text-decoration: none;
+	color: white;
+}
+
+a[class="boton_compra"]:active{
+	color: red;
+}

@@ -1,0 +1,17 @@
+Realizar la imagen que se adjunta y considerar lo siguiente:
+Nota: enviar en un archivo comprimido los archivos html y css de ambas asignaciones.
+
+1.- Crear los archivos html y css respectivos. Además, todas las cajas deben tener el mismo tamaño.
+
+2.- Las cajas siempre deben estar pegadas al borde, aunque la ventana del navegador se amplíe o disminuya. Rosada: arriba-izquierda, azul: arriba-derecha, verde: debajo-izquierda y amarillo: debajo-derecha.
+
+3.- La caja rosada debe estar por encima de la azul y la amarilla por encima de la verde y de la rosada al disminuir el ancho de la ventana del navegador.
+
+4.- Optimizar el código CSS lo más que se pueda.
+
+5.- A la maqueta creada en el desafío anterior agregar un listado después de sabores con los items: vainilla, fresa, chocolate, stracciatella, limón y yogurt; y emplear las propiedades correspondientes en css para que el resultado sea una lista desplegable. Nota: en este objetivo se tendrá en consideración la semántica del html.
+
+rosado=10
+azul=9
+amarillo=11
+verde=8

@@ -1,0 +1,22 @@
+body{ text-align: center;}
+
+.imagen-efecto{
+	width: 30%;
+	margin: 100px 0;
+	border-radius: 20%;
+	box-shadow: 30px 15px 5px rgba(0,0,0,.5);
+	/*box-shadow: ejeX ejeY difuminado y color;*/
+	/*con 0 en x,y la sombra rodeara a la imagen*/
+}
+.caja{
+	width: 200px;
+	height: 200px;
+	background: yellow;
+	margin: auto;
+	box-shadow: inset 5px 5px 100px rgba(0,0,0,.5)
+	/*el inset pone la sombra sobre el elemento*/
+}
+
+h1{
+	text-shadow: 10px 10px 20px /*rgba(100,20,20,.5)*/ blue;
+}

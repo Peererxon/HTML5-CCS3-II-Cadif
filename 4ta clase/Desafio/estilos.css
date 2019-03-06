@@ -1,0 +1,303 @@
+*{
+	padding: 0;
+	margin: 0;
+	border:0;
+	font-family: 'Lato';
+}
+.contenedor{
+    background-image: url(banner.jpeg);
+    height: 560px;
+    background-position: 50% 30%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.contenedor_fondo{
+	height: -webkit-fill-available;
+    background: linear-gradient(to left,rgb(46,191,145,0.8),rgb(131,96,195,0.8));
+}
+
+nav{
+    position: relative;
+    left: 13%;
+    display: inline-block;
+    text-transform: uppercase;
+}
+nav li{
+	display: inline-block;
+	margin: 10px;
+	position: relative;
+	top: 77px;
+	font-size: 19px;
+	text-transform: uppercase;
+}
+
+nav a[href]{
+	text-decoration: none;
+	color: white;
+}
+
+nav li:first-child a{
+	color: #fff77c;
+	border-top: 4px solid #fff77c;
+	padding-top: 15px;
+}
+
+figure{
+	width: 185px;
+	float: left;
+}
+
+
+figure img{
+	position: relative;
+	left: 86px;
+}
+
+figure img:hover{
+-webkit-transform: rotateY(180deg);
+transform: rotateY(180deg);
+transition-timing-function: ease-in-out;
+}
+
+div [class="Agencia"]  p{
+    position: relative;
+    top: 35px;
+}
+.Agencia{
+    position: relative;
+	top: 21%;
+    right: 7%;
+}
+
+.Agencia>h2{
+	font-size: 108px;
+	color: white;
+	position: relative;
+    top: 32px;
+}
+
+.Agencia li{
+    display: inline-block;
+    position: relative;
+    top: 68px;
+    left: 4%;
+}
+
+.Agencia li+li{
+	left: 8%;
+
+}
+
+.Agencia li a{
+	text-transform: uppercase;
+	background: #fff77c;
+	padding: 16px 33px;
+	border: 2px solid yellow;
+	transition:all 1s;
+	border-radius: 41px;
+	text-decoration: none;
+}
+/*profe yo entendi por la foto que solo el boton de la izquierda desaparecia*/
+.Agencia li a[id="Servicios"]:hover{
+	background: none;
+	color:#fff77c;
+}
+
+#Contactar{
+	color:rgb(131,96,195);
+	text-transform: uppercase;
+    background: #fff77c;
+    padding: 16px 33px;
+    border: 2px solid yellow;
+    border-radius: 41px;
+    text-decoration: none;
+}
+
+article li{
+    position: relative;
+    left: 84%;
+    text-decoration: none;
+    display: inline-block;
+    top: 20px;
+}
+div[class="grisiento"]>h2{
+    text-align: center;
+    position: relative;
+    top: 45px;
+    text-transform: uppercase;
+}
+
+.grisiento{
+	width: 100%;
+	height:500px;
+	background: #ECEFF1;
+}
+
+.Cuadros{
+	display: inline-block;
+    position: relative;
+    left: 11%;
+    top: 54px;
+    background: white;
+    height: 355px;
+    width: 300px;
+    margin: 10px 22px;
+    box-shadow: -2px 0px 3px rgb(144,164,174);
+    text-align: center;
+}
+.Cuadros:hover{
+	background: linear-gradient(to left, red,blue);
+	transform: scale(1.3);
+	transition-timing-function: ease-out;
+	transition-duration: 1.5s;
+}
+
+.Cuadros_img{
+	width: 67%;
+	margin: auto;
+}
+
+.Cuadros_img img{
+	width: 200px;
+    position: relative;
+    top: 20px;
+}
+
+.Cuadros h2{
+	color: rgb(131,96,195)
+}
+
+.Cuadro_texto{
+    position: relative;
+    top: 47px;
+}
+
+#central{
+	height: 180px;
+}
+
+article>h1{
+    font-size: 47px;
+    position: relative;
+    top: 31%;
+    left: 8%;
+}
+
+div[class="grisiento_central"]>h2 {
+    text-align: center;
+    position: relative;
+    top: 45px;
+    text-transform: uppercase;
+ }
+
+.grisiento_central{
+	width: 100%;
+	height:373px;
+	background: #ECEFF1;
+}
+
+#Nuestros_Clientes{
+	width: 90%;
+	margin:auto;
+}
+#Nuestros_Clientes_imagenes{
+    margin: 63px -24px;
+
+}
+
+#Nuestros_Clientes_imagenes img{
+	width: 122px;
+	filter: grayscale(100%);
+	margin-left: 71px;
+}
+
+#Nuestros_Clientes_imagenes img:nth-child(1){
+	width: 180px;
+	filter: contrast(5%);
+}
+
+#lento{
+	transition-timing-function: ease-in-out;
+}
+#Nuestros_Clientes_imagenes img:nth-child(2){
+	width: 180px;
+	position: relative;
+    top: 34px;
+
+}
+
+#Nuestros_Clientes_imagenes img:nth-child(2):hover{
+	transform: skew(-20deg);
+}
+#rapido{
+transition-timing-function: ease;
+}
+
+#Nuestros_Clientes_imagenes img:nth-child(3):hover{
+	border-radius:50%;
+	-webkit-border-radius:50%;
+	box-shadow: 0px 0px 15px 15px lightblue;
+	-webkit-box-shadow: 0px 0px 15px 15px lightblue;
+	transform: rotateZ(360deg);
+	-webkit-transform: rotateZ(360deg);
+	transition-duration: 1.5s;
+
+}
+#Nuestros_Clientes_imagenes img:nth-child(4){
+	width: 155px;
+}
+
+#Nuestros_Clientes_imagenes img:nth-child(4):hover{
+	filter:none;
+	border-radius:50%;
+	-webkit-border-radius:50%;
+	box-shadow: 0px 0px 15px 15px lightblue;
+	-webkit-box-shadow: 0px 0px 15px 15px lightblue;
+	transform: rotateY(360deg);
+	-webkit-transform: rotateY(360deg);
+	transition-duration: 1.5s;
+	/*bugeado*/
+}
+#Nuestros_Clientes_imagenes img:nth-child(5){
+    width: 153px;
+    position: relative;
+    top: 9px;
+
+}
+
+#Nuestros_Clientes_imagenes img:hover{
+	filter:none;
+	border-radius:50%;
+	-webkit-border-radius:50%;
+	box-shadow: 0px 0px 15px 15px lightblue;
+	-webkit-box-shadow: 0px 0px 15px 15px lightblue;
+	transform: rotateX(360deg);
+	-webkit-transform: rotateX(360deg);
+	transition-duration: 1.5s;
+}
+
+footer div[class="contenedor_fondo"]{
+	height: 360px;
+	text-align: center;
+}
+
+footer div[class="contenedor_fondo"] img{
+	width: 185px;
+	border-bottom: 4px solid white;
+	padding-bottom: 20px;
+	margin-top: 65px;
+}
+
+footer div[class="contenedor_fondo"] img:hover{
+	transform: scale(1.5);
+	transition-timing-function: ease-in-out;
+	transition-duration: 1.5s
+
+}
+
+img+p{
+	color: white;
+	margin-top: 10px;
+}

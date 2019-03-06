@@ -1,0 +1,41 @@
+*{
+	margin: 0;
+	padding: 0;}
+
+.cajasG{
+	background: pink;
+	width: 200px;
+	height: 200px;}
+
+.cuadro{
+	margin:85px 42%;
+	background: #f95b34;
+	height: 30px;
+	width: 30px;}
+
+#caja1{
+	position: absolute;
+	background: #ee3e64;
+z-index: 10;
+display: inline-block;}
+
+#caja2{
+	position: absolute;
+	background: #44accf;
+	display: inline-block;
+	z-index: 9;
+	left: calc(100% - 200px);}
+
+#caja3{
+	position: absolute;
+	top: calc(100% - 200px);
+	left: calc(100% - 200px);
+	background: #b7d84b;
+	z-index: 8;}
+
+#caja4{
+	position: absolute;
+	top: calc(100% - 200px);
+	background: #ebde52;
+	z-index:11;}
+

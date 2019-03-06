@@ -1,0 +1,186 @@
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+
+}
+
+header{
+	position: fixed;
+	height: 60px;
+	width: 98%;
+	background: lightblue;
+	padding: 50px;
+	padding-top: 20px;
+	padding-left:60px;
+	padding-bottom:0px;
+	padding-right: 10px; 
+	/* arriba,derecha,abajo,izquierda, solo 2 arriba bajo izquierda derecha*/
+	padding: 20px 10px 0px 60px;
+	padding: 45px 20px;
+	z-index: 2;
+}
+figure{
+
+	float: right;
+}
+
+article img{
+	width: 200px;
+}
+
+article{
+	height: 300px;
+ width: 40%;
+ border: 1px  red solid;
+ margin:20px;
+ float: left;
+/*Valores del overflow
+
+	-visible
+	-hidden
+	-scroll
+	-auto(analiza cuanto contenido exista y crea una barra para desplazarse de ser necesario)
+
+*/
+ /*para que todo lo que se salga de el se oculte, overflow: hidden;*/
+ 
+ overflow: auto;
+ }
+
+ aside{
+ 	width: 30%;
+ 	height: 790px;
+ 	background:gold;
+ 	float: right;
+
+ 	background-image: url(../img/triangulus.jpg);
+ 	background-size: 100% 50%;
+	
+	background-repeat: no-repeat;
+
+ }
+
+
+
+
+/*	
+
+	background-image: url(../img/triangulus.jpg);
+	background-repeat: no-repeat;
+*/
+
+#banner{
+	height: 200px;
+	background: lightgreen;
+
+}
+
+	/* Metiendo el h1 en el centro del medio center+padding-top*/
+#banner h1{
+	font-size: 70px;
+	color:	red;
+	text-align: center;
+	padding-top: 100px;
+	border-width: 10px;
+	/*border-style: dashed;*/
+	border-style: double;
+
+	/* 
+		valores del border-style:
+		-dashed
+		-dotted
+		-double
+		-solid
+		-none
+	*/
+	border-color: yellow;
+	border:3px solid orange;
+
+	/*Con relativo deja usar las siguientes obciones de posicionamiento*/ 
+	position: relative;
+	top:10px ;
+	bottom: ;
+	left: ;
+	right: ;
+
+	}
+
+
+	#principal{
+		width: 70%;
+		float: left;
+		background:blue;
+	}
+
+figure{
+	width: 200px;
+	float: left;
+}
+
+nav{
+	float: right;
+	text-align: right;
+}
+
+nav li ul{
+	position: absolute;
+	display: none;
+}
+
+li a{
+
+	text-decoration: none;
+}
+
+li {
+
+	margin-top: 30px;
+	display: inline-block;
+}
+
+/*Esta propiedad sirve para que cuando se situe encima de ella haga lo indicado*/
+
+nav	li:hover{
+		background: red;
+	}
+
+	nav li:hover ul{
+		display:block;
+	}
+
+footer{
+	bottom: 0%;
+	height: 25px;
+	background:black;
+	text-align: center;
+	color: red;
+	/* para que deje de flotar solo el elemento seleccionado (footer  en este caso*/
+	clear: both;
+	width: 100%;
+	position: fixed;
+}
+
+#buscador{
+	position: relative;
+	top: 17px;
+	right:118px;
+	width: 250px;
+
+}
+
+#Boton{
+	
+	position: relative;
+    left: 135px;
+}
+form{
+	float: left;
+}
+
+.imagen-oculta{
+	/*visibility: hidden;*/
+	/*con esta propiedad se mantiene el espacio para la imagen*/
+	display: none;
+	/*con esta propiedad se desaparece y quita el espacio donde estaba la imagen*/
+}

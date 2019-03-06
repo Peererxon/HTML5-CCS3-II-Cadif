@@ -1,0 +1,11 @@
+Según el proyecto adjuntado, realizar las siguientes actividades:
+
+1.- Reescribir el archivo maindrds.css
+
+2.- Usar el selector hijo directo.
+
+3.- Usar el selector hermano adyacente.
+
+4.- Usar los selectores de atributos según el caso.
+
+5.- Puede usar otros selectores pero debe optimizar la mayor parte del código css por medio de los selectores avanzados y el resultado debe ser el mismo al diseño original. Nota: Debe enviar exclusivamente el archivo css resultante.

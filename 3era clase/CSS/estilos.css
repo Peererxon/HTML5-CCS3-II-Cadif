@@ -1,0 +1,114 @@
+/*. contenedor p{
+	selector descendiente
+	}*/
+/*. contenedor > p{
+	selector hijo directo
+	}*/
+/*. contenedor p + p{
+	selector hermano directo
+	}*/
+
+/*. contenedor p ~ p{
+	selector hermano adyacente ,
+	sin importar las etiquetas que esten entre las etiquetas hermanas}*/
+/* ~ se saca con alt+126*/
+
+.contenedor p ~ p{
+color: green;
+}
+
+li{
+	display: inline-block;
+	margin: 5px;
+	padding: 10px;
+}
+
+li a{
+	text-decoration: none;
+	color: black;
+}
+/*Los corchetes son para denotar que trabajamos con un
+solector de tipo atributo*/
+
+/*Selector atributo presente*/
+a[class]{
+	color: blue;
+}
+/*Selector atributo igual, mirar que aqui se espefica 
+una clase*/
+a[class="diferente"]{
+	background: black;
+}
+/* Selector atributo contenido,que lleve.com no que 
+termine en .com*/
+a[href*=".com"]{
+	background: yellow;
+}
+
+/*para cuando el cursor se pose por encima de la etiqueta*/
+li a:hover{
+	background: gold;
+}
+/*para que los elementos que aun no han sido visitados
+ se mantengan con esta propiedad*/
+li a:link{
+	color: blue;
+}
+/*active es la propiedad para cuando se haga el click*/
+li a:active{
+	color: red;
+}
+/*los elementos que ya hayan sido visitados
+(o abiertos) adquieran la propiedad especificada(visited)*/
+
+/*li :visited{
+	background:green;
+} */
+
+/*para cuando se seleccione el formulario adquiera
+ la propiedad*/
+input:focus{
+	background: lightgreen;
+}
+input:checked{
+	display: none;
+}
+
+li:before{
+	content: '';
+	width: 10px;
+	height: 10px;
+	background: red;
+	position: absolute;
+	top: 5px;
+	border-radius: 50px
+}
+
+li a:visited{
+	color: orange;
+}
+
+ul li:first-child{
+	background: blue;
+}
+
+/*Hijo especificando el orden*/
+ul li:nth-child(2){
+	background: purple;
+}
+
+ul li:last-child{
+	background: orange;
+}
+
+/*Para indicar que los pares con 2n y impares con 2n+1*/
+ul li:nth-child(2n+1){
+	background: lightblue;
+}
+/*con esto se supone que sea una excepcion a todos menos
+a .diferente, pero no tiene soporte actualmente
+en los navegadores NO USAR por ahora*/
+
+/*ul li:not(.diferente){
+	background: blue;
+}*/

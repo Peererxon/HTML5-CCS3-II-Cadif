@@ -1,0 +1,146 @@
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+
+}
+
+header{
+	height: 80px;
+	background: lightblue;
+	padding: 50px;
+	padding-top: 20px;
+	padding-left:60px;
+	padding-bottom:0px;
+	padding-right: 10px; 
+	/* arriba,derecha,abajo,izquierda, solo 2 arriba bajo izquierda derecha*/
+	padding: 20px 10px 0px 60px;
+	padding: 45px 20px;
+}
+
+article img{
+	width: 200px;
+	float: right;
+}
+
+article{
+ width: 40%;
+ border: 1px  red solid;
+ margin:20px;
+ float: left;
+ }
+
+ aside{
+ 	width: 30%;
+ 	height: 800px;
+ 	background:gold;
+ 	float: right;
+
+ 	background-image: url(../img/triangulus.jpg);
+ 	background-size: 100% 50%;
+	
+	background-repeat: no-repeat;
+
+ }
+
+
+
+
+/*	
+
+	background-image: url(../img/triangulus.jpg);
+	background-repeat: no-repeat;
+*/
+
+#banner{
+	height: 400px;
+	background: lightgreen;
+
+}
+
+	/* Metiendo el h1 en el centro del medio center+padding-top*/
+#banner h1{
+	font-size: 70px;
+	color:	red;
+	text-align: center;
+	padding-top: 100px;
+	border-width: 10px;
+	/*border-style: dashed;*/
+	border-style: double;
+
+	/* 
+		valores del border-style:
+		-dashed
+		-dotted
+		-double
+		-solid
+		-none
+	*/
+	border-color: yellow;
+	border:3px solid orange;
+
+	/*Con relativo deja usar las siguientes obciones de posicionamiento*/ 
+	position: relative;
+	top:10px ;
+	bottom: ;
+	left: ;
+	right: ;
+
+	}
+
+
+	#principal{
+		width: 70%;
+		float: left;
+		background:blue;
+	}
+
+figure{
+
+	width: 200px;
+	float: left;
+}
+
+nav{
+
+	text-align: right;
+}
+
+li a{
+
+	text-decoration: none;
+}
+
+li{
+
+	margin-top: 30px;
+	display: inline-block;
+	background: yellow;
+}
+
+
+footer{
+
+	height: 80px;
+	background:black;
+	text-align: center;
+	color: red;
+	/* para que deje de flotar solo el elemento seleccionado (footer  en este caso*/
+	clear: both;
+	width: 100%;
+	position: fixed;
+}
+
+#buscador{
+	position: relative;
+	top: 17px;
+	right:118px;
+	width: 250px;
+
+}
+
+#Boton{
+	
+	position: relative;
+    left: 135px;
+}
